@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  margin: 100px;
+}
+
+#button-1, #button-2, #button-3 {
+  padding: 20px;
+}
+
+#button-1 button {
+  color: aqua;
+  border: 2px solid aqua;
+  width: 170px;
+  height: 30px;
+  border-radius: 15rem;
+}
+
+#button-2 button {
+
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: white;
+  background-color: aqua;
+}
+
+#button-3 button {
+  width: 170px;
+  height: 40px;
+  background-color: rgb(32, 73, 208);
+  color: white;
+  box-shadow:5px 5px 1px black;
